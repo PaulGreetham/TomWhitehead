@@ -14,6 +14,11 @@
  *= require_self
  */
 
+body {
+  margin: 0;
+  padding: 0;
+}
+
  .banner {
   margin: 0;
   padding: 0;
@@ -21,6 +26,59 @@
   width: 100vw;
   background-size: cover;
   background-position: center;
-  background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), url("homepage.jpg");
+  background-image: linear-gradient(rgba(0,0,0,0.7), rgba(0,0,0,0.7)), url("homepage.jpg");
   scroll-behavior: auto;
+}
+
+h1 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-size: 16vh;
+  padding: 0;
+  margin: 0;
+  color: rgb(230, 230, 230);
+  padding-left: 8vh;
+  padding-top: 32vh;
+}
+
+h4 {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  font-size: 8vh;
+  padding: 0;
+  margin: 0;
+  color: white;
+  color: rgb(230, 230, 230);
+  padding-left: 8vh;
+}
+
+/* Add a black background color to the top navigation */
+.topnav {
+  font-family: 'Reem Kufi Fun', sans-serif;
+  overflow: hidden;
+  opacity: 1;
+  color: rgb(230, 230, 230);
+}
+
+
+/* Style the links inside the navigation bar */
+.topnav a {
+  float: right;
+  color: rgb(230, 230, 230);
+  text-align: center;
+  padding: 2vh 2vh;
+  text-decoration: none;
+  font-size: 3vh;
+}
+
+/* Change the color of links on hover */
+.topnav a:hover {
+  background-color: rgb(230, 230, 230);
+  color: black;
+  border-radius: 5px;
+  opacity: 0.4;
+}
+
+/* Add a color to the active/current link */
+.topnav a.active {
+  background-color: gray;
+  color: rgb(230, 230, 230);
 }
